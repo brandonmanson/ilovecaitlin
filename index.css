@@ -2,6 +2,85 @@
 @-ms-viewport {
 	width: device-width;
 }
-font-family: 'Cabin', sans-serif;
-font-family: 'Lobster', cursive;
+
+body {
+	background-color: #DC143C;
+	color: #FFF0F5;
+}
+
+p {
+	display: block;
+	margin: 3%;
+	padding-bottom: 3%;
+	text-align: center;
+	font-family: 'Cabin', sans-serif;
+	font-size: 2.0em;
+}
+
+header {
+	display: block;
+	margin-bottom: 7%;
+}
+
+header h3 {
+	font-size: 1.5em;
+	font-family: 'Cabin', sans-serif;
+	font-weight: lighter;
+}
+
+.container {
+	max-width: 800px;
+	display: block;
+	margin: auto;
+}
+
+.i-love {
+	display: block;
+	font-family: 'Cabin', sans-serif;
+	font-weight: lighter;
+	font-size: 1.0em;
+	text-align: center;
+}
+
+.caitlin {
+	display: block;
+	margin-left: 1%;
+	font-family: 'Lobster', cursive;
+	font-weight: lighter;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+.heading {
+	display: block;
+	margin-right: 3%;
+	font-family: 'Lobster', cursive;
+	font-size: 3.5em;
+	font-weight: bold;
+}
+
+.reason:nth-child(odd) {
+	background-color: #FFF0F5;
+	color: #DC143C;
+	text-align: right;
+	border-radius: 10px;
+	/*box-shadow: 3px 1px 15px #8B475D;*/
+}
+
+footer {
+	display: block;
+	margin-top: 10%;
+}
+
+footer h3 {
+	text-align: right;
+	font-size: 1.5em;
+	font-family: 'Cabin', sans-serif;
+}
+
+.signature {
+	font-family: 'Lobster', cursive;
+	font-weight: lighter;
+	font-size: 2.5em;
+}
 
